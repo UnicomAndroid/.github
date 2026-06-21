@@ -1,40 +1,35 @@
-<div align = center>
+<div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/100076963?s=400&u=7aa8fe633f7b7c185c9400ed1a5cc925cb514f22&v=4" width="200" height="175" alt="banner">
+<img src="https://avatars.githubusercontent.com/UnicomAndroid" width="160" height="160" alt="UnicomAndroid">
 
-<h1>DogDay 🌭 热狗</h1>
+# UnicomAndroid
 
-![License](https://img.shields.io/static/v1?label=License&message=BY-NC-SA&logo=creativecommons&color=green)
-![Language](https://img.shields.io/github/languages/top/DogDayAndroid/Android-Kernel-Builder)
-![Issues](https://img.shields.io/github/issues/DogDayAndroid/Android-Kernel-Builder)
-![Pull Requests](https://img.shields.io/github/issues-pr/DogDayAndroid/Android-Kernel-Builder)
-<br>
+专注 Android 底层工具链与系统级应用
 
-这里应该是一段项目介绍……
-<br>
+[![Stars](https://img.shields.io/github/stars/UnicomAndroid?style=flat-square&color=yellow)](https://github.com/orgs/UnicomAndroid/repositories)
 
----
-
-**[<kbd> <br>  Configure  <br> </kbd>](#configuration-file-syntax)** 
-**[<kbd> <br>  Quick Start  <br> </kbd>](#how-to-use)** 
-**[<kbd> <br>  Local testing  <br> </kbd>](#local-testing)**
-
----
 </div>
 
-## 如何自定义首次启动的引导界面
+---
 
-### 测试原版的 SetupWizard
+## 📱 [ACR](https://github.com/UnicomAndroid/ACR) — Advanced Call Recorder
 
-首先我们需要进入 `adb` 环境，在终端执行如下指令:
+[![Stars](https://img.shields.io/github/stars/UnicomAndroid/ACR?style=flat&color=yellow)](https://github.com/UnicomAndroid/ACR)
+[![License](https://img.shields.io/badge/License-GPL%203.0-blue?style=flat)](https://github.com/UnicomAndroid/ACR)
 
-```
-adb shell
-```
+全自动 Android 通话录音应用，专为 Root 设备及 Xposed / LSPosed 框架打造。支持 6 种输出格式、智能规则过滤、离线语音转写及 AI 摘要。Kotlin + Flutter 双栈架构，Material Design 3 界面。
 
-进入到手机的 `adb` 环境后，首先利用 `su` 进行提权，随后启动原生的引导界面程序即可，具体指令如下:
+## 🔧 [kerneler](https://github.com/UnicomAndroid/kerneler) — Android 内核构建
 
-```
-su
-am start -n com.google.android.setupwizard/.SetupWizardTestActivity
-```
+[![Stars](https://img.shields.io/github/stars/UnicomAndroid/kerneler?style=flat&color=yellow)](https://github.com/UnicomAndroid/kerneler)
+[![Archived](https://img.shields.io/badge/状态-已归档-lightgrey?style=flat)](https://github.com/UnicomAndroid/kerneler)
+
+基于 GitHub Actions 的 Android 内核自动化构建工具链，支持内核编译、系统组件及 TWRP 构建。已归档，67 个 Release 仍可使用。
+
+---
+
+<div align="center">
+
+<sub>Made with ❤️ by UnicomAndroid</sub>
+
+</div>
